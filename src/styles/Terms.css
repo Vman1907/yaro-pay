@@ -1,0 +1,9 @@
+.terms{
+    margin: 5rem 5rem;
+}
+
+@media only screen and (max-width: 778px){
+    .terms{
+        margin: 5rem 2rem;
+    }
+}

@@ -1,0 +1,17 @@
+.popup{
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.13);
+    z-index: 10;
+    backdrop-filter: blur(10px);
+}
+
+.popup div{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
