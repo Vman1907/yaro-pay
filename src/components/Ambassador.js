@@ -10,10 +10,11 @@ import arrow from '../assets/Vector 12.svg'
 import '../styles/Ambassador.css'
 import { useEffect } from 'react'
 
-const Ambassador = () => {
+const Ambassador = ({ page, setPage }) => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
+        setPage('campus')
     })
 
 

@@ -1,9 +1,9 @@
-.page-wrapper{
+.page-wrapper {
     margin-top: 200px;
     overflow-x: hidden;
 }
 
-.header-info{
+.page-wrapper .header-info{
     display: flex;
     flex-direction: column;
     font-size: 1.95rem;
@@ -11,7 +11,7 @@
     justify-content: center;
 }
 
-.custom-btn{
+.page-wrapper .custom-btn{
     margin-top: 2rem;
     font-size: 1.25rem;
     width: max-content;
@@ -27,27 +27,27 @@
     color: #fff;
 }
 
-.custom-btn:hover{
+.page-wrapper .custom-btn:hover{
 background-position: right;
 }
 
-.custom-btn a{
+.page-wrapper .custom-btn a{
     margin: 30px;
     color: #fff;
     text-decoration: none;
 }
 
-.rings{
+.page-wrapper .rings{
     position: absolute;
     visibility: hidden;
 }
 
-.image{
+.page-wrapper .image{
     padding: 1rem 0;
     z-index: 2;
 }
 
-.floating-image img:nth-child(1){
+.page-wrapper .floating-image img:nth-child(1){
     position: absolute;
     top: -200px;
     right: -61px;
@@ -55,7 +55,7 @@ background-position: right;
     transition: 0.5s;
 }
 
-.floating-image img:nth-child(2){
+.page-wrapper .floating-image img:nth-child(2){
     position: absolute;
     right: -400px;
     top: -125px;
@@ -63,7 +63,7 @@ background-position: right;
     transition: 0.5s;
 }
 
-.floating-image img:nth-child(3){
+.page-wrapper .floating-image img:nth-child(3){
     transition: 0.5s;
     position: absolute;
     top: 70px;
@@ -71,7 +71,7 @@ background-position: right;
     z-index: 4;
 }
 
-.floating-image img:nth-child(4){
+.page-wrapper .floating-image img:nth-child(4){
     position: absolute;
     right: -390px;
     top: 130px;
@@ -79,20 +79,20 @@ background-position: right;
     transition: 0.5s;
 }
 
-.floating-image img:nth-child(4):hover, 
-.floating-image img:nth-child(3):hover, 
-.floating-image img:nth-child(2):hover, 
-.floating-image img:nth-child(1):hover{
+.page-wrapper .floating-image img:nth-child(4):hover, 
+.page-wrapper .floating-image img:nth-child(3):hover, 
+.page-wrapper .floating-image img:nth-child(2):hover, 
+.page-wrapper .floating-image img:nth-child(1):hover{
     transform: scale(1.1);
     transition: 0.5;
 }
 
-.iphone{
+.page-wrapper .iphone{
     height: 450px;
     z-index: 3;
 }
 
-.iphone-bg{
+.page-wrapper .iphone-bg{
     position: absolute;
     width: 250px;
     bottom: 110px;
@@ -100,70 +100,70 @@ background-position: right;
     z-index: -2;
 }
 
-.values-wrapper{
+.page-wrapper .values-wrapper{
     margin: 0 5rem;
     padding: 2rem 2rem 0;
 }
 
-.values-wrapper .header{
+.page-wrapper .values-wrapper .header{
     font-size: 2rem;
 }
 
-.values-info{
+.page-wrapper .values-info{
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
 }
 
-.values-info>span{
+.page-wrapper .values-info>span{
     display: flex;
     flex-direction: column;
     width: 250px;
     transition: 0.5s;
 }
 
-.values-info>span:hover{
+.page-wrapper .values-info>span:hover{
     transform: scale(1.05);
 }
 
-.info-header{
+.page-wrapper .info-header{
     font-size: 1.5rem;
     margin: 1rem 0;
     font-weight: 500;
 }
 
-.blank-space{
+.page-wrapper .blank-space{
     margin-bottom: 3rem;
     height: 200px;
 }
 
-.invest>img{
+.page-wrapper .invest>img{
     position: absolute;
     left: -100px;
 }
 
-.iphone2{
+.page-wrapper .iphone2{
     height: 550px;
     /* margin-left: 2rem; */
 }
 
-.invest-image{
+.page-wrapper .invest-image{
     margin-top: 2rem;
 }
 
-.invest-image div{
+.page-wrapper .invest-image div{
     width: min-content;
 }
 
-.invest-content{
+.page-wrapper .invest-content{
     margin: 4rem 0;
 }
 
-.invest-content>span{
+.page-wrapper .invest-content>span{
     font-size: 2rem;
 }
 
-.invest-content .col-lg-6 div{
+.page-wrapper .invest-content .col-lg-6 div{
     margin: 3rem 0.5rem;
     display: flex;
     flex-direction: column;
@@ -177,19 +177,19 @@ background-position: right;
     transition: 0.5s;
 }
 
-.invest-content .col-lg-6{
+.page-wrapper .invest-content .col-lg-6{
     transition: 0.3s;
 }
-.invest-content .col-lg-6:hover{
+.page-wrapper .invest-content .col-lg-6:hover{
     transform: scale(1.05);
     transition: 0.3s;
 }
 
-.invest-content .col-lg-6 img{
+.page-wrapper .invest-content .col-lg-6 img{
     margin: 2rem auto;
 }
 
-.invest-content a{
+.page-wrapper .invest-content a{
     cursor: pointer;
     border: none;
     outline: none;
@@ -202,22 +202,22 @@ background-position: right;
     color: #fff;
 }
 
-.invest-content a:hover{
+.page-wrapper .invest-content a:hover{
     background-position: right;
     text-decoration: none;
 }
 
-.compounding-header{
+.page-wrapper .compounding-header{
     font-size: 2rem;
     margin-bottom: 3rem;
 }
 
-.compounding-inner div{
+.page-wrapper .compounding-inner div{
     display: flex;
     flex-direction: column;
 }
 
-.name-line{
+.page-wrapper .name-line{
     margin-left: 1.55rem;
     margin-top: 0.8rem;
     position: absolute;
@@ -228,18 +228,18 @@ background-position: right;
     background-image: linear-gradient( #684EED , #B864FF);
 }
 
-.line2{
+.page-wrapper .line2{
     position: absolute;
     left: -100px;
     width: 700px;
     z-index: -1;
 }
 
-.compounding .col-lg-4 div{
+.page-wrapper .compounding .col-lg-4 div{
     width: min-content;
 }
 
-.compounding .iphone3{
+.page-wrapper .compounding .iphone3{
     width: 350px;
 }
 
@@ -248,12 +248,12 @@ background-position: right;
     width: max-content;
 }
 
-.compounding-inner div>span:hover{
+.page-wrapper .compounding-inner div>span:hover{
     transform: scale(1.1) translateX(10px);
     transition: 0.5s;
 }
 
-.yaro-coin{
+.page-wrapper .yaro-coin{
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
@@ -261,23 +261,23 @@ background-position: right;
     text-align: center;
 }
 
-.yaro-coin-img{
+.page-wrapper .yaro-coin-img{
     margin: 2rem auto;
     height: 200px;
     transition: 0.5s;
 }
 
-.yaro-coin-img:hover{
+.page-wrapper .yaro-coin-img:hover{
     transform: scale(1.1);
     transition: 0.5s;
 }
 
-.yaro-coin span:nth-child(1){
+.page-wrapper .yaro-coin span:nth-child(1){
     font-size: 2rem;
     line-height: 2;
 }
 
-.yaro-coin button{
+.page-wrapper .yaro-coin button{
     border: none;
     outline: none;
     width: max-content;
@@ -293,51 +293,83 @@ background-position: right;
     cursor: pointer;
 }
 
-.yaro-coin button:hover{
+.page-wrapper .yaro-coin button:hover{
     background-position: right;
 }
 
-.yaro-card{
+.page-wrapper .yaro-coin button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.page-wrapper .yaro-card{
     margin-top: 2rem;
 }
 
-.yaro-card .row{
+.page-wrapper .yaro-card .row{
     padding: 3rem;
 }
 
-.yaro-card span:nth-child(1){
+.page-wrapper .yaro-card span:nth-child(1){
     font-size: 2rem;
     margin-bottom: 2rem;
 }
 
-.yaro-card span:nth-child(2),
-.yaro-card span:nth-child(3),
-.yaro-card span:nth-child(4),
-.yaro-card span:nth-child(5){
+.page-wrapper .yaro-card span:nth-child(2),
+.page-wrapper .yaro-card span:nth-child(3),
+.page-wrapper .yaro-card span:nth-child(4),
+.page-wrapper .yaro-card span:nth-child(5){
     font-size: 1.25rem;
     margin-bottom: 1rem;
 }
 
-.yaro-card .col-lg-7{
+.page-wrapper .yaro-card .col-lg-7{
     display: flex;
     flex-direction: column;
 }
 
-.yaro-card .col-lg-7>span{
+.page-wrapper .yaro-card .col-lg-7>span{
     display: flex;
     align-items: flex-start;
 }
 
-.yaro-card .col-lg-7>div{
+.page-wrapper .yaro-card .col-lg-7>div{
     margin-bottom: 2rem;
 }
 
-.yaro-card .col-lg-4 div{
+.page-wrapper .yaro-card .col-lg-4 div{
     width: min-content;
 }
 
-.yaro-card .col-lg-4 img{
+.page-wrapper .yaro-card .col-lg-4 img{
     height: 500px;
+}
+
+#myModal .modal-content{
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#myModal .modal-content span:nth-child(1){
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: #B864FF;
+}
+
+#myModal .modal-content span:nth-child(2){
+    font-weight: 500;
+    margin: 2rem 0;
+}
+
+#myModal .modal-content button{
+    width: fit-content;
+    padding: 10px 20px;
+    margin: auto;
+    background-color: #684EED;
+    color: #fff;
+    border-radius: 25px;
 }
 
 @keyframes bg-animation {
@@ -350,201 +382,201 @@ background-position: right;
 }
 
 @media only screen and (max-width: 1094px){
-    .header-wrapper{
+    .page-wrapper .header-wrapper{
         justify-content: center!important;
     }
 
-    .iphone3{
+    .page-wrapper .iphone3{
         width: 300px!important;
     }
 }
 
 @media only screen and (max-width: 992px){
 
-    .header-wrapper{
+    .page-wrapper .header-wrapper{
         justify-content: center!important;
     }
-    .header-wrapper .header-info{
+    .page-wrapper .header-wrapper .header-info{
         font-size: 1.25rem;
     }
 
-    .custom-btn{
+    .page-wrapper .custom-btn{
         font-size: 1rem;
         padding: 0;
         height: 40px;
     }
 
-    .custom-btn a{
+    .page-wrapper .custom-btn a{
         margin: 0 10px;
     }
 
-    .iphone{
+    .page-wrapper .iphone{
         height: 300px;
         margin: auto;
     }
 
-    .iphone-bg{
+    .page-wrapper .iphone-bg{
         width: 150px;
         right: 100px;
     }
 
-    .floating-image img:nth-child(1){
+    .page-wrapper .floating-image img:nth-child(1){
         height: 100px;
         top:-170px
     }
 
-    .floating-image img:nth-child(2){
+    .page-wrapper .floating-image img:nth-child(2){
         height:50px;
         right: -270px;
         top: -80px;
     }
 
-    .floating-image img:nth-child(3){
+    .page-wrapper .floating-image img:nth-child(3){
         height: 90px;
         right: -50px;
     }
 
-    .floating-image img:nth-child(4){
+    .page-wrapper .floating-image img:nth-child(4){
         height: 80px;
         top:80px;
         right: -300px;
     }
 
-    .values-wrapper{
+    .page-wrapper .values-wrapper{
         text-align: center;
         margin: 0;
     }
 
-    .values-info{
+    .page-wrapper .values-info{
         flex-direction: column;
         text-align: center;
         align-items: center;
     }
 
-    .values-info img{
+    .page-wrapper .values-info img{
         margin: 2rem auto 0;
     }
 
-    .invest-image{
+    .page-wrapper .invest-image{
         display: flex;
         justify-content: center;
     }
 
-    .invest-content{
+    .page-wrapper .invest-content{
         text-align: center;
     }
 
-    .invest-content .row{
+    .page-wrapper .invest-content .row{
         justify-content: center;
     }
 
-    .compounding{
+    .page-wrapper .compounding{
         justify-content: center!important;
         align-items: center;
     }
 
-    .line2{
+    .page-wrapper .line2{
         right:-10px;
         width: 530px;
     }
 
-    .iphone3{
+    .page-wrapper .iphone3{
         width: 200px;
     }
     
-    .compounding .col-lg-4>img{
+    .page-wrapper .compounding .col-lg-4>img{
         right: -100px;
     }
 
-    .compounding-header{
+    .page-wrapper .compounding-header{
         font-size: 1.5rem;
     }
 }
 
 @media only screen and (max-width: 769px){
 
-    .page-wrapper{
+    .page-wrapper .page-wrapper{
         margin-top: 100px;
     }
-    .header-info span{
+    .page-wrapper .header-info span{
         font-size: 1.25rem;
         text-align: center;
     }
 
-    .header-wrapper .col-lg-4:nth-child(2){
+    .page-wrapper .header-wrapper .col-lg-4:nth-child(2){
         justify-content: center!important;
     }
 
-    .custom-btn{
+    .page-wrapper .custom-btn{
         margin: 2rem auto;
     }
     
-    .floating-image{
+    .page-wrapper .floating-image{
         visibility: hidden;
         position: absolute;
     }
 
-    .iphone{
+    .page-wrapper .iphone{
         margin: 3rem auto;
     }
 
-    .iphone-bg{
+    .page-wrapper .iphone-bg{
         visibility: hidden;
     }
 
-    .invest .col-6:nth-child(1) div{
+    .page-wrapper .invest .col-6:nth-child(1) div{
         margin-left: 2rem;
     }
 
-    .invest .col-6:nth-child(2) div{
+    .page-wrapper .invest .col-6:nth-child(2) div{
         margin-right: 2rem;
     }
 
-    .compounding{
+    .page-wrapper  .compounding{
         flex-direction: column-reverse;
     }
 
-    .ellipse{
+    .page-wrapper  .ellipse{
         visibility: hidden;
         position: absolute;
     }
 
-    .rings{
+    .page-wrapper   .rings{
         visibility: visible;
         width: 400px;
         z-index: -1;
         animation: breathing 5s infinite alternate ease-in;
     }
 
-    .compounding .col-lg-4{
+    .page-wrapper   .compounding .col-lg-4{
         display: flex;
         justify-content: center;
     }
 
-    .iphone3{
+    .page-wrapper   .iphone3{
         width: 280px!important;
         margin-bottom: 3rem;
     }
 
-    .compounding .col-lg-6{
+    .page-wrapper   .compounding .col-lg-6{
         text-align: center;
     }
 
-    .compounding-inner{
+    .page-wrapper   .compounding-inner{
         margin-top: 2rem;
         padding-left: 3rem;
     }
 
-    .yaro-coin-img{
+    .page-wrapper  .yaro-coin-img{
         width: 70%;
     }
 
-    .yaro-card .col-lg-4 img{
+    .page-wrapper   .yaro-card .col-lg-4 img{
         margin-top: 1rem;
         height: 400px;
     }
 
-    .line2{
+    .page-wrapper    .line2{
         left: 60px;
     }
 }

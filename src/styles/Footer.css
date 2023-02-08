@@ -68,8 +68,14 @@
     color: #fff;
     background-color: #CE8CFF;
     padding:0 40px;
-    cursor: pointer;
     margin: auto 0.5rem;
+}
+
+.footer .newsletter form .disabled{
+    cursor: not-allowed;
+}
+.footer .newsletter form .enabled{
+    cursor: pointer;
 }
 
 .footer .content-inner{
@@ -141,7 +147,7 @@
 .footer .contact span:nth-child(3){
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .footer-links{
@@ -155,6 +161,10 @@
     transition: 0.3s;
 }
 
+.footer-links img{
+    width: 30px;
+}
+
 @media only screen and (max-width: 1024px) {
 
     .footer{
@@ -165,7 +175,7 @@
         font-size: 2rem;
     }
 
-    .footer input{
+    .footer form input{
         width: 150px;
     }
 

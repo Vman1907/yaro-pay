@@ -1,0 +1,113 @@
+.blue{
+    color: #1E5AFF;
+}
+
+.coin-wrapper{
+    margin-top: 5rem;
+}
+
+.coin-wrapper .header {
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.coin-wrapper .header>div>span{
+    font-size: 2rem;
+    line-height: 4;
+}
+
+
+.coin-wrapper .col-lg-6 .content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.coin-wrapper .col-lg-6 .content img{
+    height: 50px;
+}
+
+.coin-wrapper .col-lg-6 .content div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    font-size: 1.25rem;
+}
+
+.coin-wrapper .header .col-lg-4 {
+    display: flex;
+}
+
+.coin-wrapper .col-lg-4 img{
+    width: 80vw;
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.coin-wrapper .yaro-card{
+    padding: 2rem 0;
+}
+
+.coin-wrapper .yaro-card .card-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coin-wrapper .yaro-card .card-image>span{
+    font-size: 2rem;
+    margin: 3rem 0;
+    width: 100vw;
+    text-align: center;
+    font-weight: 500;
+}
+
+.coin-wrapper .yaro-card .card-image img{
+    /* width: 80vw; */  
+    /* height: 700px; */
+    width: 80vw;
+    max-width: 635px;
+    margin: 0 auto 2rem;
+}
+
+.coin-wrapper .yaro-card .content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.coin-wrapper .yaro-card .content>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.coin-wrapper .yaro-card .content>div:nth-child(1) img{
+    height: 50px;
+}
+
+@media only screen and (max-width:990px){
+    .coin-wrapper .header .row{
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .coin-wrapper .header{
+        padding: 0 2rem;
+    }
+
+    .coin-wrapper .header>div>span{
+        text-align: center;
+    }
+
+    .coin-wrapper .yaro-card{
+        padding: 0 2rem;
+    }
+
+    .coin-wrapper .yaro-card .content{
+        font-size: 1rem;
+    }
+}

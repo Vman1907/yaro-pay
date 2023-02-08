@@ -24,6 +24,16 @@
     color: #684EED;
 }
 
+.nav-link.active{
+    color: #684EED!important;
+}
+
+.nav-link.download{
+    background-color: #604EEB;
+    color: #fff!important;
+    border-radius: 20px;
+}
+
 .search{
     width: 15px;
     margin-right: 2rem;
@@ -34,40 +44,89 @@
     backdrop-filter: blur(10px);
     transition: 0.5s;
 }
-.modal{
-    text-align: center;
-    margin: 10% auto;
-}
 
-.modal-content{
+#alertModal .modal-content{
     padding: 1rem;
     border-radius: 20px;
 }
 
-.modal .modal-content span:nth-child(1){
-    margin: 2rem auto;
-    font-size: 1.5rem;
-    color: #5363e3;
-    font-weight: 500;
+#alertModal .modal-content>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.modal .modal-content span:nth-child(2){
-    padding: 0 1rem;
-    margin-bottom: 1rem;
+#alertModal .modal-content>div span{
+    color: #604EEB;
     font-size: 1.25rem;
-    font-weight: 500;
 }
 
-.modal-content button{
+#alertModal .modal-content img{
+    width: 100px;
+}
+
+#alertModal .modal-content form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+#alertModal .modal-content input{
+    background-color: #D5E3FF;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#alertModal .modal-content button:nth-child(1){
     width: fit-content;
-    margin: 1rem auto;
+    margin: 1rem 0;
     padding: 0.5rem 2rem;
-    background-color: #e0a901;
+    background-color: #684EED;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+    width: 45%;
+}
+
+#alertModal .modal-content form>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#alertModal .modal-content button:nth-child(2){
+    width: fit-content;
+    margin: 1rem 0;
+    padding: 0.5rem 2rem;
+    background-color: #684EED;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+    width: 45%;
+}
+
+#alertModal .recorded{
+    text-align: center;
+    display: flex;
+    flex-direction: column!important;
+}
+
+#alertModal .recorded>span{
+    margin-bottom: 2rem;
 }
 @media only screen and (max-width: 992px){
 
     .navbar-nav{
         align-items: center;
+    }
+
+    .nav-link.download{
+        background-color: rgba(255, 255, 255, 0);
+        color: #000!important;
     }
 
     .custom-bg{

@@ -1,7 +1,13 @@
+import { useEffect } from 'react';
 import '../styles/Policies.css'
 
 
-const Policies = () => {
+const Policies = ({ page, setPage }) => {
+
+    useEffect(() => {
+        setPage('')
+    })
+
     document.body.scrollTop = document.documentElement.scrollTop = 0;
     return (<>
         <div className="policies-wrapper">

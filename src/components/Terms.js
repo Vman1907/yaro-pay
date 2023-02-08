@@ -1,6 +1,11 @@
+import { useEffect } from 'react';
 import '../styles/Terms.css'
 
-const Terms = () => {
+const Terms = ({ page, setPage }) => {
+
+    useEffect(() => {
+        setPage('')
+    })
 
     document.body.scrollTop = document.documentElement.scrollTop = 0;
 
